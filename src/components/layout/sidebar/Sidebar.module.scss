@@ -1,0 +1,11 @@
+.sidebar {
+	@apply flex justify-between items-center flex-col h-[70%] w-24 rounded-[30px] border-[3px] border-zinc-700 bg-neutral-900/35 backdrop-blur-xl overflow-hidden;
+
+	& > button {
+		@apply mt-8;
+	}
+
+	& > :last-child {
+		@apply mb-8;
+	}
+}

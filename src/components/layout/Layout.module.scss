@@ -1,0 +1,11 @@
+.layout {
+	@apply flex justify-center items-center h-screen gap-6;
+
+	background-image: url('/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	@apply flex items-center flex-col gap-6 h-[70%] w-3/5 rounded-[40px] border-[3px] border-zinc-700 bg-zinc-900/35 backdrop-blur-xl overflow-hidden;
+}

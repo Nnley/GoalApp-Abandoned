@@ -1,0 +1,19 @@
+.item {
+	@apply flex items-center border-zinc-500 border-[3px] rounded-2xl p-7 text-2xl font-light pl-12 pr-12 overflow-hidden mb-4;
+
+	span {
+		@apply w-4/5 truncate opacity-100;
+	}
+
+	button {
+		@apply transition duration-300 ease-in-out hover:scale-125;
+	}
+
+	&:last-child {
+		@apply mb-0;
+	}
+}
+
+.buttons {
+	@apply flex items-center ml-auto gap-6 opacity-100;
+}
